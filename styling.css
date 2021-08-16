@@ -1,0 +1,168 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lavender;
+    max-width: 1000px;
+    margin: auto; 
+}
+
+#start{
+  background-image: url(h1.jpg);
+  padding-top: 50px;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h2{
+  color: purple;  
+  text-align: center;
+}
+
+#selection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#selection a{
+  border-radius: 100px;
+  color: cadetblue;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  font-size: 15px;
+  background-color: whitesmoke;
+  margin: 15px;
+  padding: 12px;
+}
+
+#selection a:hover{
+  background-color: cadetblue ;
+  color: whitesmoke;
+}
+
+#myself{
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+#info_hobbies{
+    display: flex;
+}
+
+#basic_info{
+    background-color: antiquewhite;
+    width: 60%;
+    padding: 50px;
+}
+
+#hobbies{
+    background-color: antiquewhite;
+    width: 40%;
+    padding: 50px;
+}
+
+#honesty{
+    background-image: url("honesty.jpg");
+    text-align: center;
+    padding: 50px;
+}
+
+#education{
+  background-color: lavenderblush;
+  text-align: center; 
+  padding-top: 30px;
+  padding-bottom: 50px;
+
+}
+
+#university{
+  background-color: lavender;
+  width: 50%;
+  margin: auto;
+}
+
+#college{
+  background-color: lavender;
+  width: 50%;
+  margin: auto;
+}
+
+#highschool{
+  background-color: lavender;
+  width: 50%;
+  margin: auto;
+}
+
+.program{
+  background-color: white;
+}
+
+#contact{
+  background-color: #B6E3E9;
+  padding: 30px;
+}
+
+#h_rate{
+  margin-left: 170px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 600px;
+  border: 3px slategray;
+  border-radius: 3px;
+}
+
+#hr_rate{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 600px;
+  border: 3px slategray;
+  border-radius: 3px;
+}
+
+input[type=text]{
+  margin-left: 180px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 600px;
+  border: 3px slategray;
+  border-radius: 3px;
+}
+
+input[type=submit]{
+  margin-left: 180px;
+  padding: 7px;
+  border: 3px slategray;
+  border-radius: 3px;
+  background-color: lavenderblush;
+}
+
+input[type=submit]:hover {
+  background-color:darksalmon;
+}
+
+label{
+  margin-left: 180px;
+}
+
+textarea {
+  margin-left: 180px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 600px;
+  border: 3px slategray;
+  border-radius: 3px;
+}
