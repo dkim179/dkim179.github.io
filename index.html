@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Daniel Kim</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="styling.css">
+    <script type="text/javascript" src="function.js"></script>
+  </head>
+
+  <body>    
+    <nav>
+        <div id="start">
+        <h1><u><i>DANIEL KIM</i></u></h1>
+            <div id="selection">
+                <a href="#me">About Daniel</a>
+                <a href="#education">Education</a>
+                <a href="#contact_form">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="me">
+        <div id="myself">
+            <h2><u><i>Who am I?</i></u></h2>
+            <p style="line-height:3em;">My name is Daniel Kim, and I'm currently living in St. Catharines, Canada. I'm currently taking Computer Programming &<br>
+            Analysis (CPA), and about to finish 2nd semester in Seneca College. Before coming to Seneca College, I attended to University<br>
+            of Waterloo for Physics & Astronomy. I finished 1st year there and I realized that I'm not a "physics" person which I decided<br>
+            to transfer to Seneca College to learn about programming. I hope you get to know me better as you read through.</p>
+            <p style="margin-left:24em"><b>Enjoy exploring it!</b></p>
+        </div>
+        <div id="info_hobbies">
+            <div id="basic_info">
+                <h2><u><i>Information About Me</i></u></h2>
+                <p><b><i>&emsp;&emsp;&emsp;&emsp;&emsp;AGE:</i></b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;20</p>
+                <p><b><i>&emsp;&emsp;&emsp;&emsp;&emsp;EMAIL:</i></b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;dkim179@myseneca.ca</p>
+                <p><b><i>&emsp;&emsp;&emsp;&emsp;&emsp;LANGUAGE:</i></b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;Korean, English</p>
+                <p><b><i>&emsp;&emsp;&emsp;&emsp;&emsp;CLASS SECTION:</i></b> &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;NEE</p>
+                <p><b><i>&emsp;&emsp;&emsp;&emsp;&emsp;STUDENT ID:</i></b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;136925203</p>
+                <p><b><i>&emsp;&emsp;&emsp;&emsp;&emsp;INSTRUCTOR:</i></b> &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Nathan Misener</p>
+                <p><b><i>&emsp;&emsp;&emsp;&emsp;&emsp;Ethnicity:</i></b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;South Korean (🇰🇷)</p>
+                <p><b><i>&emsp;&emsp;&emsp;&emsp;&emsp;Year & Semester:</i></b> &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;1st Year, 2nd Semester</p>
+                <p><b><i>&emsp;&emsp;&emsp;&emsp;&emsp;City:</i></b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;St. Catharines</p>
+            </div>
+            <div id="hobbies">
+                <h2><u><i>Hobbies!</i></u></h2>
+                <ul>
+                    <li>&emsp;Volleyball</li>
+                    <li>&emsp;Basketball</li>
+                    <li>&emsp;Badminton</li>
+                    <li>&emsp;Video-games</li>
+                    <li>&emsp;8-ball</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="honesty">
+        <h2><u><i>Honesty Statement</i></u></h2>
+        <p>I declare that my assessment is wholly my own work in accordance with Seneca Academic</p>
+        <p>Policy. No part of this assessment has been copied manually or electronically from any other</p>
+        <p>source (including web sites) except for the information supplied by the WEB222 instructors</p>
+        <p>and / or made available in this assessment for my use. I also declare that no part of this</p>
+        <p>assignment has been distributed to other students.</p>
+    </section>
+
+    <section id="education">
+        <h2><u><i>Education</i></u></h2>
+
+        <div id="university">
+            <div class="institution-year">
+                <h3><u>University of Waterloo</u></h3>
+                <h4>2019-2020</h4>
+            </div>
+            <div class="program">
+                <p>Physics & Astronomy</p>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div id="college">
+            <div class="institution-year">
+                <h3><u>Seneca College</u></h3>
+                <h4>2021-2023</h4>
+            </div>
+            <div class="program">
+                <p>Computer Programming & Analysis(CPA)</p>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div id="highschool">
+            <div class="institution-year">
+                <h3><u>Eden Highschool</u></h3>
+                <h4>2015-2019</h4>
+            </div>
+            <div class="program">
+                <p>Highschool diploma</p>
+            </div>
+        </div>
+    </section>  
+
+    <section id="contact_form">
+        <h2>Contact Me</h2>
+        <form name="my_form" action="https://httpbin.org/post" onsubmit="return validation()" method="POST">
+            <label for="name">Name: </label>
+            <input name="name" type="text" required>
+            <label for="email">Email: </label>
+            <input name="email" type="text" required> 
+            <label for="address">Address: </label> 
+            <input name="address" type="text">
+            <label for="city">City: </label>
+            <input name="city" type="text" list="city">
+            <label for="age">Age: </label>
+            <input name="age" type="text">
+            <datalist id="city">
+                <option value="Toronto">
+                <option value="Vancouver">
+                <option value="Montreal">
+                <option value="Niagara Falls">
+                <option value="Victoria">
+                <option value="Halifax">
+                <option value="Quebec City">
+                <option value="Calgary">
+                <option value="Ottawa">               
+                <option value="Edmonton">
+              </datalist>
+            <label for="postal">Postal: </label>
+            <input name="postal" type="text" requried>
+
+            <label for="Question">Question <input id="Question" type="radio" name="type" value="Question" onclick="javascript:check();"></label>
+            <label for="Comment">Comment <input id="Comment" type="radio" name="type" value="Comment" onclick="javascript:check();"></label>
+            <label for="Hiring">Hiring <input id="Hiring" type="radio" name="type" value="Hiring" onclick="javascript:check();"></label>
+            <br>
+            <div id="h_rate"><br>Hourly Rate: <input id="hr_rate" type="input" name="h_rate"></div>
+            <br><br>
+            <label for="Messaage">Message: <textarea id="Message" name="message" rows="7" cols="60" placeholder="Enter your text here"></textarea></label>
+
+            <input type="submit" name="Submit" value="Submit Form"><br><br>
+            <script src="scripts/script.js"></script>
+        </form>
+    </section>
+  </body>
+</html>
